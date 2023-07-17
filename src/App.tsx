@@ -5,6 +5,8 @@ import Benefits from '@/scenes/benefits'
 import { useEffect, useState } from 'react'
 import { SelectedPage } from '@/shared/types'
 import OurClasses from './scenes/ourclasses'
+import ContactUs from './scenes/contactus'
+import Footer from './scenes/footer'
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
   <Home  setSelectedPage={setSelectedPage} />
   <Benefits  setSelectedPage={setSelectedPage} />
   <OurClasses  setSelectedPage={setSelectedPage} />
+  <ContactUs setSelectedPage={setSelectedPage} />
+   <Footer />
 </div>    
   )
 }

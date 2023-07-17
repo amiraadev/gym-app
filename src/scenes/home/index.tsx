@@ -86,7 +86,7 @@ function Home({setSelectedPage}: Props) {
                 </div>
             </div>
         )}
-        Home</section>
+            </section>
   )
 }
 
