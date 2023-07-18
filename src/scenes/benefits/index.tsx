@@ -42,6 +42,7 @@ export default function Benefits({setSelectedPage}: Props) {
         className="mx-auto min-h-full w-5/6 py-20"> 
         <motion.div
            onViewportEnter={() => setSelectedPage(SelectedPage.Benefits) }
+        //    onViewportEnter={() => console.log("benefits")}
           >
             {/* HEADER */}
             <motion.div 
