@@ -1,4 +1,6 @@
 import Logo from "@/assets/Logo.png";
+import { AiOutlineFacebook, AiOutlineInstagram } from 'react-icons/ai';
+
 
 const Footer = () => {
   return (
@@ -7,22 +9,26 @@ const Footer = () => {
         <div className="mt-16 basis-1/2 md:mt-0">
           <img alt="logo" src={Logo} />
           <p className="my-5">
-            Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
-            purus et arcu massa dictum condimentum. Augue scelerisque iaculis
-            orci ut habitant laoreet. Iaculis tristique.
+           
+All rights reserved. Embrace your fitness journey with our world-class facilities, expert trainers, and diverse classes.
           </p>
-          <p>© Evogym All Rights Reserved.</p>
+          <p>2023© Gigigym All Rights Reserved.</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Links</h4>
-          <p className="my-5">Massa orci senectus</p>
-          <p className="my-5">Et gravida id et etiam</p>
-          <p>Ullamcorper vivamus</p>
+          <div className=" flex flex-row items-center mt-16 basis-1/4 md:mt-0">
+            <AiOutlineFacebook size={24}  />
+            <p className="my-5 px-2">https://www.facebook.com/Gigigym</p>
+          </div>
+          <div className=" flex flex-row items-center mt-16 basis-1/4 md:mt-0">
+             <AiOutlineInstagram size={24} />
+             <p className="my-5  px-2">https://www.instagram.com/Gigigym</p>
+          </div>
+        
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">Tempus metus mattis risus volutpat egestas.</p>
-          <p>(333)425-6825</p>
+          <p>(+216) 71-682-228</p>
         </div>
       </div>
     </footer>

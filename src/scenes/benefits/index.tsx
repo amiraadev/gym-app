@@ -13,17 +13,17 @@ const benefits : Array<BenefitType> =[
     {
         icon :<HomeModernIcon className="h-6 w-6"/>,
         title:"State of the art facilities",
-        description:   "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et."
+        description:   "Elevate Your Fitness Experience in our Gym's Cutting-Edge, State-of-the-Art Facilities, Designed to Provide the Ultimate Environment for Your Workouts and Achieving Your Fitness Goals."
     },
     {
         icon :<UserGroupIcon className="h-6 w-6"/>,
         title:"100's of Diverse Classes",
-        description:   "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et."
+        description:   "Explore a Vast Selection of Diverse Fitness Classes at Our Gym, Offering 100's of Options to Cater to Every Workout Style and Fitness Level."
     },
     {
         icon :<AcademicCapIcon className="h-6 w-6"/>,
         title:"Expert and Pro trainer",
-        description:   "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et."
+        description:   "Train with the Best in the Industry at Our Gym, where Expert and Pro Trainers will Guide and Motivate You, Unlocking Your Full Potential and Taking Your Fitness Journey to New Heights."
     },
 ]
 
@@ -116,18 +116,10 @@ export default function Benefits({setSelectedPage}: Props) {
                                     visible: { opacity: 1, x: 0 },
                                 }}>
                         <p className="my-5">
-                            Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                            egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                            fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                            nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                            tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                            Felis orci diam odio.
+                        Join our thriving community of millions of happy members, where getting fit is a shared journey filled with support, motivation, and success stories. Experience the power of our gym's positive atmosphere and witness how countless lives have transformed through fitness..
                         </p>
                         <p className="mb-5">
-                            Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                            tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                            facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                            enim mattis odio in risus nunc.
+                        Witness the transformative power of fitness in action as millions of happy members achieve their fitness goals and embrace a healthier lifestyle at our gym.
                         </p>
                         </motion.div>
                         {/* BUTTON */}
