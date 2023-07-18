@@ -9,7 +9,7 @@ type Props ={
 }
 function Link({page,selectedPage,setSelectedPage}:Props) {
 
-    const lowerCasePage = page.toLowerCase().replace(/_/g, "") as SelectedPage;
+  const lowerCasePage = page.toLowerCase().replace(/ /g, "") as SelectedPage;
   return (
    <AnchorLink
    className={`${selectedPage === lowerCasePage?  "text-primary-500" : ""}

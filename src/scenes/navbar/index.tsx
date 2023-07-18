@@ -34,8 +34,8 @@ return (
                         <div className={`${flexBetween} gap-8 text-md`}>
                            <Link page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                            <Link page="Benefits" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
-                           <Link page="OurClasses" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
-                           <Link page="ContactUs" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
+                           <Link page="Our Classes" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
+                           <Link page="Contact Us" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                         </div>
                         <div className={`${flexBetween}  gap-8 `}>
                             <p>Sign In </p>
