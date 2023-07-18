@@ -17,7 +17,7 @@ function Navbar({isTopOfPage,selectedPage,setSelectedPage}:Props) {
     const flexBetween ="flex items-center justify-between"
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
     const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false)
-    const navbarBackground = isTopOfPage ? "top" : "bg-primary-100 drop-shadow";
+    const navbarBackground = isTopOfPage ?  "bg-primary-100 drop-shadow" : "top" ;
 
     
 return (

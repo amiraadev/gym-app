@@ -22,15 +22,15 @@ function App() {
       setIsTopOfPage(false)
     }
     window.addEventListener("scroll", handleScroll);
-    return () =>window.removeEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
   }
   
  },[]);
 
- useEffect(() =>{
-  console.log(selectedPage);
+//  useEffect(() =>{
+//   console.log(selectedPage);
    
-  },[selectedPage]);
+//   },[selectedPage]);
 
   return (
 <div className="app bg-gray-20">
