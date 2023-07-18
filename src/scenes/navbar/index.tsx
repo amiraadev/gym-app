@@ -28,7 +28,7 @@ return (
                     <img src={Logo} alt="logo" />
 
                     {isAboveMediumScreens ? (<div className={`${flexBetween} w-full`}>
-                        <div className={`${flexBetween} gap-8 text-sm`}>
+                        <div className={`${flexBetween} gap-8 text-md`}>
                            <Link page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                            <Link page="Benefits" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                            <Link page="Our Classes" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
