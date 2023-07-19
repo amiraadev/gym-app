@@ -43,9 +43,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>
+          <Htext>
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
-          </HText>
+          </Htext>
           <p className="my-5">
           Ready to join our vibrant fitness community:
            Register with your email today to become a part of our gym and unlock a world of health and wellness. If you have any questions or need further information,
