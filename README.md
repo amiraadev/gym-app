@@ -2,7 +2,7 @@
 
 The Gym App is a cutting-edge fitness application built with React, Tailwind, and TypeScript. It showcases deep expertise in web technologies and delivers a superior fitness experience. The app is fully responsive and offers stunning animations powered by Framer Motion, seamless navigation with React Anchor Link Smooth Scroll, and lightning-fast performance with Vite.
 # Preview:
-https://amiraallagui.github.io/gym-app/
+https://amiraadev.github.io/gym-app/
 ## Features
 
 - Responsive design: The app is designed to adapt seamlessly to different devices, providing a smooth user experience on desktop, tablet, and mobile.
